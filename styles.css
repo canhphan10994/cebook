@@ -1,0 +1,49 @@
+/* GLOBAL */
+
+header .container-fluid, .dropdown-menu{
+  background-color: #F4F1EA;
+}
+
+.dropdown-menu {
+  border: none;
+}
+
+.navbar-brand {
+  font-size: 1.5em;
+  letter-spacing: 0.2em;
+  font-weight: 600;
+}
+
+.nv-light a{
+  color: #382110;
+}
+
+.nav-item a:hover{
+  background: #382110;
+  color: white;
+}
+
+/* FOOTER */
+footer .container-fluid{
+  background: #F4F1EA;
+}
+.social-list{
+  list-style: none;
+}
+
+.social-list a{
+  font-size: 1.3em;
+  color: #382110;
+}
+.social-list a:hover{
+  color: #714220;
+}
+
+footer p{
+  text-align: right;
+}
+
+
+.testt{
+  display: none;
+}

@@ -1,0 +1,62 @@
+/* INDEX */
+
+.quote {
+  font-size: 1.35em;
+}
+
+.my-10 {
+  margin-top: 10rem!important;
+  margin-bottom: 10rem!important;
+}
+
+.breakIcon{
+  font-size: 1.5em;
+}
+
+.contents a{
+  text-decoration: none;
+  font-size: 1.1em;
+  color: #382110;
+}
+
+.list-items{
+  list-style: none;
+}
+
+.hide{
+  display: none;
+}
+
+.card-body{
+  font-size: 0;
+  transition: all 1000ms;
+}
+
+.card:hover .card-body{
+  font-size: 1.1rem;
+}
+
+.showcase-img{
+  max-width: 80%;
+  border-radius: 20px;
+  transition: all 1000ms;
+}
+
+.showcase-img:hover{
+  max-width: 90%;
+}
+
+@media screen and (max-width:820px){
+
+  #content .breakIcon{
+    font-size: 1.2em;
+  }
+
+  #showcase blockquote{
+    font-size: 0.9em;
+  }
+
+  .card:hover .card-body{
+    font-size: 0.8rem;
+  }
+}

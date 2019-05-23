@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>CEbooks | World Of Books</title>
+  <!--Links -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../results.css">
+</head>
+
+<body>
+  <header>
+    <div class="container-fluid">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg nv-light">
+          <a class="navbar-brand" href="index.html">CEbooks</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="far fa-minus-square"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Trang Chủ</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Thể Loại
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Tiểu Thuyết</a>
+                  <a class="dropdown-item" href="#">Khoa Học</a>
+                  <a class="dropdown-item" href="#">Triết Học</a>
+                  <a class="dropdown-item" href="#">Sức Khỏe</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Phổ biến
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Top Đọc Nhiều</a>
+                  <a class="dropdown-item" href="#">Top Yêu Thích</a>
+                  <a class="dropdown-item" href="#">Top Đề Cử</a>
+                </div>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- IDEA: END HEADER -->
+  <main>
+    <!-- SHOWCASE -->
+    <section id="showcase">
+      <div class="container row mx-auto py-5">
+        <div class="quote mr-auto my-auto col-lg">
+          <blockquote cite="http://google.com">
+            ” Kia là mặt trăng! Các con cứ theo ngón tay ta chỉ mà nhìn thì thấy. Nhưng, nên nhớ rằng ngón tay ta không phải là mặt trăng. Cũng như những lời ta giảng về Đạo. Các con có thể theo lời ta giảng mà tìm thấy Đạo. Nhưng nên nhớ: “Lời giảng
+            của ta không phải là Đạo”
+            <br><br><cite>Budda</cite>
+          </blockquote>
+        </div>
+        <div class="quote-author col-lg">
+          <img class="mw-100 rounded-circle h-2 d-sm-none" src="../img/budda.jpg" alt="Budda" width="200px" height="200px">
+        </div>
+      </div>
+    </section>
+    <!-- Results -->
+    <section id="results">
+      <!-- divided line -->
+      <p class="bg-light text-center">Tada Tada...</p>
+      <!-- Result Items -->
+      <div class="container">
+        <!-- Filter -->
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">Filter</span>
+          </div>
+          <input type="text" class="form-control filterInput" value="" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        <!-- Items Table -->
+        <table class="table" height="800px">
+          <thead>
+            <tr>
+              <th scope="col" class="t-item">#</th>
+              <th scope="col">Tên sách</th>
+              <th scope="col">Tác Giả</th>
+              <th scope="col">Thế Loại</th>
+              <th scope="col">Lượt Xem</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Results in Here -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+      <div class="container-fluid row">
+        <div class="social col">
+          <ul class="social-list row mb-0 mt-2">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-github-alt"></i></a></li>
+          </ul>
+        </div>
+        <p class="copyright col mt-2 mb-0">Copyright<sup>&copy;</sup>2019 by Canh Phan</p>
+      </div>
+    </footer>
+  </main>
+  <!-- JS Sources -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="../js/results.js" type="text/javascript"></script>
+</body>
+
+</html>
